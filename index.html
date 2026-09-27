@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="B.A Dev Lab — desenvolvimento, automação e tecnologia. Projetos de software, dados, APIs e infraestrutura por Bruno Ribeiro.">
+  <meta name="theme-color" content="#080811">
+  <title>B.A Dev Lab | Desenvolvimento • Automação • Tecnologia</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  </head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="B.A Dev Lab"><img src="assets/img/ba-dev-lab-logo.png" alt="B.A Dev Lab"></a>
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a><a href="#projetos">Projetos</a><a href="#especialidades">Especialidades</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">B.A DEV LAB · DESENVOLVIMENTO • AUTOMAÇÃO • TECNOLOGIA</p>
+        <h1>Transformando processos em <span>soluções digitais.</span></h1>
+        <p class="lead">Um laboratório de projetos para desenvolvimento de aplicações, automação de processos, dados e soluções que conectam tecnologia à operação real.</p>
+        <div class="hero-actions"><a class="btn primary" href="#projetos">Conheça os projetos</a><a class="btn secondary" href="#sobre">Sobre o Dev Lab</a></div>
+        <div class="hero-stack"><span>Python</span><span>Flask</span><span>JavaScript</span><span>SQLite</span><span>Automação</span><span>APIs</span></div>
+      </div>
+      <div class="hero-brand"><div class="brand-glow"></div><img src="assets/img/ba-dev-lab-logo.png" alt="B.A Dev Lab — Desenvolvimento, Automação e Tecnologia"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div></div>
+    </section>
+
+    <section class="projects-section" id="projetos">
+      <div class="section-heading">
+        <div><p class="eyebrow">PROJETOS EM DESTAQUE</p><h2>Soluções construídas para <span>resolver.</span></h2><p class="section-copy">Cada projeto terá seu próprio case, código-fonte e, quando aplicável, uma versão para demonstração ou download.</p></div>
+        <div class="filters" aria-label="Filtrar projetos"><button class="filter active" data-filter="all">Todos</button><button class="filter" data-filter="software">Software</button><button class="filter" data-filter="automation">Automação</button><button class="filter" data-filter="web">Web</button><button class="filter" data-filter="api">APIs</button></div>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="capabilities" id="especialidades">
+      <div class="section-heading compact"><div><p class="eyebrow">O QUE EU CONSTRUO</p><h2>Da ideia à operação.</h2></div></div>
+      <div class="capability-grid">
+        <article><span>01</span><h3>Desenvolvimento</h3><p>Aplicações web e desktop, APIs, integrações e ferramentas internas com foco em uso real.</p></article>
+        <article><span>02</span><h3>Automação</h3><p>Redução de tarefas repetitivas, padronização de fluxos e integração entre processos e sistemas.</p></article>
+        <article><span>03</span><h3>Dados</h3><p>Validação, tratamento, rastreabilidade, relatórios e transformação de planilhas em informação operacional.</p></article>
+        <article><span>04</span><h3>Infra & Integração</h3><p>Experiência de infraestrutura aplicada ao desenvolvimento de soluções que conversam com o ambiente real.</p></article>
+      </div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="about-title"><p class="eyebrow">SOBRE O DEV LAB</p><h2>Construir. Testar.<br><span>Evoluir.</span></h2></div>
+      <div class="about-copy"><p>A B.A Dev Lab é a identidade que reúne meus projetos de desenvolvimento, automação e tecnologia. O objetivo deste portfólio é mostrar não apenas o resultado final, mas também arquitetura, decisões técnicas e evolução de cada solução.</p><p>Os projetos apresentados aqui nascem de problemas práticos: operações logísticas, qualidade de dados, automações, integrações e ferramentas para tornar processos mais claros e eficientes.</p><div class="about-note"><strong>Bruno Ribeiro</strong><span>Desenvolvimento • Automação • Infraestrutura</span></div></div>
+    </section>
+
+    <section class="contact" id="contato">
+      <p class="eyebrow">CONTATO & CÓDIGO</p><h2>Quer conhecer o que está sendo <span>construído?</span></h2><p>Os repositórios e cases serão conectados aqui conforme a publicação dos projetos.</p>
+      <div class="contact-links"><a class="disabled" href="#" aria-disabled="true">GitHub · em preparação</a><a href="mailto:bruh.chess@gmail.com">E-mail ↗</a></div>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> B.A Dev Lab</span><span>Desenvolvimento • Automação • Tecnologia</span></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
