@@ -10,9 +10,9 @@ O B.A Dev Lab funciona como um hub para projetos concluídos e projetos em desen
 
 ## 🌐 Portfólio
 
-O projeto é publicado através da **Vercel**.
+Acesse a versão publicada através da **Vercel**:
 
-> O endereço público será adicionado aqui após o primeiro deploy.
+**https://ba-dev-lab.vercel.app/**
 
 ---
 
@@ -218,7 +218,7 @@ Quando necessário, exemplos públicos utilizam dados sanitizados ou placeholder
 Clone o repositório:
 
 ```bash
-git clone <URL-DO-REPOSITORIO>
+git clone https://github.com/bruhches/ba-dev-lab.git
 ```
 
 Entre na pasta:
